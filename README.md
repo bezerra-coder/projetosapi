@@ -15,6 +15,7 @@ Ele é útil para pessoas que precisam de informações rápidas e confiáveis s
 
 - Qualquer versão moderna do Python.
 - Biblioteca requests: para instalar, rode o comando abaixo no terminal:
+  
   Bash em Linux 🐧 e Windows 🪟 :
   
   pip install requests
