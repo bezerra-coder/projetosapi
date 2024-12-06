@@ -14,7 +14,7 @@ Ele é útil para pessoas que precisam de informações rápidas e confiáveis s
 ## Pré-requisitos 👮
 
 - Qualquer versão moderna do Python.
-- Biblioteca requests: Para instalar, rode o comando abaixo no terminal:
+- Biblioteca requests: para instalar, rode o comando abaixo no terminal:
   Bash em Linux 🐧 e Windows 🪟 :
   
   pip install requests
@@ -49,7 +49,7 @@ Ele é útil para pessoas que precisam de informações rápidas e confiáveis s
  
   4. Erros: Verifica se houve sucesso ou não pela requisição em (raise_for_status()). Dessa forma, é exibido uma mensagem informando caso a API não retorne a cotação ou haja problemas nos dados.
 
-  5. Exibição: Oferece o resutado da coutação ou mensagens de erro.
+  5. Exibição: Oferece o resutado da cotação ou mensagens de erro.
  
   ---------------
   ## Exemplo de saída 📊:
