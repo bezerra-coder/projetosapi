@@ -1,26 +1,26 @@
 # Cotação de moedas com API
-O projeto, basicamente, envolve um script em Python e consulta a cotação de moedas em tempo real utilizando uma API [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas)
+O projeto, basicamente, envolve um script em Python e consulta a cotação de moedas em tempo real utilizando uma API (https://docs.awesomeapi.com.br/api-de-moedas)
 
 ---------------
 ## Descrição 📝 
-Este script permite que o usuário:
+Este script permite que:
 1. Informe uma moeda de origem (exemplo: BRL, USD, EUR, CYN etc).
 2. Veja as cotações das principais moedas (USD, EUR, GBP, etc.) em relação à moeda de origem selecionada.
 3. Receba mensagens de erro em caso de problemas na requisição da API.
 
-Ele é útil para pessoas que precisam de informações rápidas e confiáveis sobre taxas de câmbio em suas aplicações ou estudos.
+Ele é útil para obter informações rápidas e confiáveis sobre taxas de câmbio em suas aplicações ou estudos.
 
 ---------------
-## Pré-requisitos 👮
+## Pré-requisitos 
 
 - Qualquer versão moderna do Python.
 - Biblioteca requests: para instalar, rode o comando abaixo no terminal:
   
-  Bash em Linux 🐧 e Windows 🪟 :
+  *Bash em Linux e Windows :
   
   pip install requests
 
-  Bash em MacOS 🍎 :
+  *Bash em MacOS :
   
   pip3 install requests
 
@@ -42,7 +42,7 @@ Ele é útil para pessoas que precisam de informações rápidas e confiáveis s
   ---------------
   ## Script 📜 :
 
-  1. Entrada: informe uma moeda. A entrada dela será convertida em letras maiúsculas com upper(), uma vez que a API da AwesomeAPI é sensível a letras maiúsculas e minúsculas, ela também exige que a sigla das moedas sejam todas maiúsculas.
+  1. Entrada: informe uma moeda. A entrada dela será convertida em letras maiúsculas com upper(), uma vez que a API da AwesomeAPI é sensível à letras maiúsculas e minúsculas, ela também exige que a sigla das moedas sejam todas maiúsculas.
  
   2. Iteração pelas moedas: verifica a cotação da moeda informada pelo usuário na entrada em relação a uma lista de moedas principais
 
@@ -77,12 +77,13 @@ Ele é útil para pessoas que precisam de informações rápidas e confiáveis s
 
   ## Tratamento de erros 🛡️:
 
-  Problemas de conexão: se a API não estiver acessível, exibe uma mensagem amigável.
+  Problemas de conexão: se a API não estiver acessível, exibe uma mensagem.
   Respostas inesperadas: caso o formato da resposta não contenha o par de moedas esperado, uma mensagem é exibida informando o problema.
 
   ## Melhorias:
 
   Seria muito interessante aprofundar e montar um projeto com quem tenha conhecimentos sobre front-end para que faça uma interface gráfica.
+  Desenvoler esse projeto em java para desenvolver minha habilidade nessa linguagem.
 
 
 
