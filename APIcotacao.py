@@ -20,5 +20,3 @@ for moeda2 in principais_moedas:
                 print(f"A cotação de {moeda1} para {moeda2} é: {cotacao}")
             else:
                 print(f"Não foi possível encontrar a cotação para {moeda1}-{moeda2}.")
-        except requests.exceptions.RequestException as e: # erros de requisição http
-            print(f"Erro ao acessar a API de {moeda1}-{moeda2}: {e}")
